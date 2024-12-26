@@ -1,0 +1,211 @@
+*,::before,::after{ margin: 0; box-sizing: border-box;}
+a{ text-decoration: none;}
+img{ vertical-align: bottom;}
+button{ padding: 0; cursor: pointer;}
+:disabled{ cursor:not-allowed;}
+ul{ list-style: none; padding: 0;}
+
+
+html{
+    font-size: 15px;
+}
+body{font: 16px/1.2 ;}
+
+.container{
+    max-width: 1230px;
+    margin: auto;
+    padding: 0 1rem;
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -1rem;
+}
+
+[class^="col-"]{ flex: 1 0 auto; padding: 0 1rem;}
+.col-1{ flex-basis: 8.33%; max-width: 8.33%;}
+.col-2{ flex-basis: 16.66%; max-width: 16.66%;}
+.col-3{ flex-basis: 25%; max-width: 25%;}
+.col-4{ flex-basis: 33.3339%; max-width: 33.3339%;}
+.col-5{ flex-basis: 41.66%; max-width: 41.66%;}
+.col-6{ flex-basis: 50%; max-width: 50%;}
+.col-7{ flex-basis: 58.33%; max-width: 58.33%;}
+.col-8{ flex-basis: 66.66%; max-width: 66.66%;}
+.col-9{ flex-basis: 75%; max-width: 75%;}
+.col-10{ flex-basis: 83.33%; max-width: 83.33%;}
+.col-11{ flex-basis: 91.66%; max-width: 91.66%;}
+.col-12{ flex-basis: 100%; max-width: 100%;}
+.flex{ display: flex;}
+.justify-right{ justify-content: right; }
+.justify-space-bet{ justify-content: space-between; }
+.align-center{ align-items: center;}
+
+/*     custom code     */
+
+.wrap-1 header{line-height: 4rem;}
+.wrap-1 .nav1 {font-size: 20px;}
+.wrap-1 .nav1 .navicon1 span {margin: 0 0 0 2rem; color: #1c1c50; }
+.wrap-1 .nav1 .navicon2 {float: right;}
+.wrap-1 .nav1 a { border: 2px solid; padding: .3rem 1rem; border-radius: 1rem;}
+.wrap-1 .nav1 .navicon2, a, span {margin: 0 .5rem 0 0;}
+
+.wrap-1 .nav2 { background:#1c1c50; }
+.wrap-1 .nav2 img {max-width: 100%; height: auto; margin: 0 0 .5rem 0;  }
+.wrap-1 .nav2 ul li a {color: #fff; margin: 0 1rem;}
+.wrap-1 .nav2 .search input {padding: .5rem 0; border-radius: 10px;}
+.wrap-1 .nav2 .search a {color: #fff; border: 2px solid #fff; padding: .5rem 1rem; border-radius: 10px;}
+.right{float: right;}
+
+.banner img{max-width: 100%; height: auto;}
+
+.wrap-3 { margin: 3rem;}
+.wrap-3 img { max-width: 100%; height: auto; }
+.wrap-3 h2 { text-align: center;}
+
+.wrap-4 { margin: 0 0 3rem 0;}
+.wrap-4 img { max-width: 100%; height: auto; margin: 1rem 0; }
+
+.wrap-5 { margin-bottom: 3rem;}
+.wrap-5 img { max-width: 100%; height: auto; }
+
+.wrap-6 { margin: 2rem 0 5rem 0;}
+.wrap-6 .heading { text-align: center;}
+.wrap-6 .heading h2 {margin-bottom: 1.5rem; font-size: 2rem; text-align: center; }
+.wrap-6 .heading a { color: #070707; margin: 0 0 0 1.5rem ; font-size: 1rem; text-decoration: underline #999898;  }
+.wrap-6 .heading a.active { color: #000; border-bottom: 2px solid #000; text-decoration: none; }
+.wrap-6 section img {max-width: 100%; height: auto; overflow: hidden; }
+.wrap-6 section figure {margin-top: 2rem; position: relative; }
+.wrap-6 section figure span {color: #ff0000;}
+.wrap-6 section figure .heart { position: absolute; top: .2rem; right: .2rem; color: #000; font-size: 2rem; } 
+.wrap-6 section figcaption {font-size: 1.1rem;}
+.wrap-6 section .view {text-align: center; margin: 3rem 0;}
+.wrap-6 section .view a { border: 1px solid #000; width: 8rem; font-size: 1.5rem; padding: 1rem 2rem; color: #000;}
+
+.wrap-7 {margin: 2rem 0 4rem 0;}
+.wrap-7 section .headingh {margin-top: 18rem; text-align: center; font-size: 1.2rem;}
+.wrap-7 section  h2 {margin: 1rem 0; font-size: 2rem;}
+.wrap-7 section .headingh p span { font-weight: 700; }
+.wrap-7 section img {max-width: 100%; height: auto; overflow: hidden;}
+
+.wrap-8 h2 {text-align: center; margin-bottom: 3rem; font-size: 2rem;}
+.wrap-8 figure img {max-width: 100%; height: auto; overflow: hidden;}
+.wrap-8 figcaption h3 {margin: 1rem 0; font-size: 1.5rem;}
+.wrap-8 figcaption p {margin-bottom:2rem; font-size: 1.1rem; text-align: justify;}
+
+
+footer {background-color: #1c1c50; padding: 2rem 0 3rem 0;}
+.wrap-9 section h2 { margin: 1rem 0; color: #c5aa65;}
+.wrap-9 section li {padding: 10px 0 0 0; color: #fff;}
+.wrap-9 section a {color: #fff;}
+.wrap-9 section .headingh2 { font-size: 3.5rem;}
+.wrap-9 section span {color: #c5aa65;}
+
+.wrap-2login section {text-align: center; margin: 7rem 0;}
+.wrap-2login section h2 {font-size: 2rem; margin: 1rem 0;}
+.wrap-2login section p { margin: 1rem 0;}
+.wrap-2login section input {width: 27rem; height: 2.5rem; margin: .5rem; }
+.wrap-2login section button { width: 27rem; height: 2.5rem; font-size: 1.2rem; margin-bottom: 2rem;}
+
+
+
+
+
+/* responsive s*/
+@media screen and (max-width:1220px){
+    
+    html{ font-size: 13px;}
+    
+    
+ }
+ @media screen and (max-width:980px){
+     .col-t-none{ display: none; }
+     .col-tl-1{ flex-basis: 8.33%; max-width: 8.33%;}
+     .col-tl-2{ flex-basis: 16.66%; max-width: 16.66%;}
+     .col-tl-3{ flex-basis: 25%; max-width: 25%;}
+     .col-tl-4{ flex-basis: 33.33%; max-width: 33.33%;}
+     .col-tl-5{ flex-basis: 41.66%; max-width: 41.66%;}
+     .col-tl-6{ flex-basis: 50%; max-width: 50%;}
+     .col-tl-7{ flex-basis: 58.33%; max-width: 58.33%;}
+     .col-tl-8{ flex-basis: 66.66%; max-width: 66.66%;}
+     .col-tl-9{ flex-basis: 75%; max-width: 75%;}
+     .col-tl-10{ flex-basis: 83.33%; max-width: 83.33%;}
+     .col-tl-11{ flex-basis: 91.66%; max-width: 91.66%;}
+     .col-tl-12{ flex-basis: 100%; max-width: 100%;}
+     
+     .wrap-1 .nav2 img {max-width: 100%; height: auto; margin: 0 0 1rem 0; }
+
+ }
+ @media screen and (max-width:767px){
+     html{ font-size: 12px;}
+     
+     [class^="col-"]{ flex: 1 0 auto; padding: 0 1rem;}
+     .col-tp-1{ flex-basis: 8.33%; max-width: 8.33%;}
+     .col-tp-2{ flex-basis: 16.66%; max-width: 16.66%;}
+     .col-tp-3{ flex-basis: 25%; max-width: 25%;}
+     .col-tp-4{ flex-basis: 33.3339%; max-width: 33.3339%;}
+     .col-tp-5{ flex-basis: 41.66%; max-width: 41.66%;}
+     .col-tp-6{ flex-basis: 50%; max-width: 50%;}
+     .col-tp-7{ flex-basis: 58.33%; max-width: 58.33%;}
+     .col-tp-8{ flex-basis: 66.66%; max-width: 66.66%;}
+     .col-tp-9{ flex-basis: 75%; max-width: 75%;}
+     .col-tp-10{ flex-basis: 83.33%; max-width: 83.33%;}
+     .col-tp-11{ flex-basis: 91.66%; max-width: 91.66%;}
+     .col-tp-12{ flex-basis: 100%; max-width: 100%;}
+      
+    .wrap-1 .nav2 .collapse { display: none;} 
+    .wrap-1 .nav2 img {max-width: 150%; height: auto; margin: 0 0 .5rem 0;  }
+    .wrap-7 section .headingh {margin-top: 12rem; text-align: center; font-size: 1.2rem;}
+
+
+
+ }
+ @media screen and (max-width:480px){
+    [class^="col-"]{ flex: 1 0 auto; padding: 0 1rem;}
+     .col-ml-1{ flex-basis: 8.33%; max-width: 8.33%;}
+     .col-ml-2{ flex-basis: 16.66%; max-width: 16.66%;}
+     .col-ml-3{ flex-basis: 25%; max-width: 25%;}
+     .col-ml-4{ flex-basis: 33.33%; max-width: 33.33%;}
+     .col-ml-5{ flex-basis: 41.66%; max-width: 41.66%;}
+     .col-ml-6{ flex-basis: 50%; max-width: 50%;}
+     .col-ml-7{ flex-basis: 58.33%; max-width: 58.33%;}
+     .col-ml-8{ flex-basis: 66.66%; max-width: 66.66%;}
+     .col-ml-9{ flex-basis: 75%; max-width: 75%;}
+     .col-ml-10{ flex-basis: 83.33%; max-width: 83.33%;}
+     .col-ml-11{ flex-basis: 91.66%; max-width: 91.66%;}
+     .col-ml-12{ flex-basis: 100%; max-width: 100%;}
+     
+     .wrap-1 .nav1 {font-size: 16px;}
+     .wrap-1 .nav1 a { border: 2px solid; padding: .3rem .5rem; border-radius: 1rem;}
+     .wrap-1 .nav1 .navicon1 span {margin: 0 0 0 .6rem; } 
+     .wrap-1 .nav2 img {max-width: 250%; height: auto; margin: 0 0 .5rem 0;  }
+     .wrap-7 section .headingh {margin-top: 3rem; text-align: center; font-size: 1.2rem;}
+
+ }
+
+
+ @media screen and (max-width:360px){
+    [class^="col-"]{ flex: 1 0 auto; padding: 0 1rem;}
+    .col-mp-1{ flex-basis: 8.33%; max-width: 8.33%;}
+    .col-mp-2{ flex-basis: 16.66%; max-width: 16.66%;}
+    .col-mp-3{ flex-basis: 25%; max-width: 25%;}
+    .col-mp-4{ flex-basis: 33.33%; max-width: 33.33%;}
+    .col-mp-5{ flex-basis: 41.66%; max-width: 41.66%;}
+    .col-mp-6{ flex-basis: 50%; max-width: 50%;}
+    .col-mp-7{ flex-basis: 58.33%; max-width: 58.33%;}
+    .col-mp-8{ flex-basis: 66.66%; max-width: 66.66%;}
+    .col-mp-9{ flex-basis: 75%; max-width: 75%;}
+    .col-mp-10{ flex-basis: 83.33%; max-width: 83.33%;}
+    .col-mp-11{ flex-basis: 91.66%; max-width: 91.66%;}
+    .col-mp-12{ flex-basis: 100%; max-width: 100%;}
+    
+    .wrap-1 .nav2 img {max-width: 120%; height: auto; margin: 0 0 1rem 0;  }
+    .wrap-1 .nav2 .search input {padding: .5rem 0; border-radius: 10px; width: 80px;}
+    .wrap-1 .nav2 .search a {color: #fff; border: 2px solid #fff; padding: .5rem 1rem; border-radius: 10px; font-size: 8px;}     
+    .wrap-7 section .headingh {margin-top: 0rem; text-align: center; font-size: 1.2rem;}
+    
+
+
+
+
+
+}
